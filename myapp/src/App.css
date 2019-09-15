@@ -1,0 +1,26 @@
+
+.menuBar{
+  height: 69px;
+  background-color: #fff;
+  padding: 0 20px;
+  border-bottom: solid 1px #e8e8e8;
+  overflow: hidden;
+  /* box-shadow: 0 0 30px #f3f1f1; */
+}
+.menuBar .btn-search-a{
+  display: none
+}
+.menuBar .right-menu-item
+{
+  cursor: pointer;
+}
+
+@media(max-width: 992px){
+  .nav-input-search{
+    display: none
+  }
+  .menuBar .btn-search-a{
+    display: inline;
+  }
+}
+
